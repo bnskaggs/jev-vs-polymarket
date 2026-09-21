@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+
+# Secrets stay in environment variables, never files.
+.env
+*.env
+
+# Cached raw price histories can be regenerated.
+data/prices/
+
+# Build artifacts.
+dist/
+build/
+*.egg-info/

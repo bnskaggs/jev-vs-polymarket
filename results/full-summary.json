@@ -1,0 +1,968 @@
+{
+  "by_category": [
+    {
+      "auc": 0.6621428571428571,
+      "brier": 0.3082293333333333,
+      "ece": 0.28240000000000004,
+      "jev_category": "crypto_price",
+      "n": 75,
+      "yes_rate": 0.5333333333333333
+    },
+    {
+      "auc": 0.6666666666666666,
+      "brier": 0.53526,
+      "ece": 0.6399999999999999,
+      "jev_category": "entertainment_culture",
+      "n": 10,
+      "yes_rate": 0.7
+    },
+    {
+      "auc": null,
+      "brier": 0.42151,
+      "ece": 0.6415,
+      "jev_category": "finance_macro",
+      "n": 40,
+      "yes_rate": 1
+    },
+    {
+      "auc": 0.3912770236299648,
+      "brier": 0.1633050279329609,
+      "ece": 0.1694972067039106,
+      "jev_category": "other",
+      "n": 179,
+      "yes_rate": 0.1452513966480447
+    },
+    {
+      "auc": 0.7282554047259929,
+      "brier": 0.13560820895522388,
+      "ece": 0.18276119402985072,
+      "jev_category": "politics",
+      "n": 134,
+      "yes_rate": 0.12686567164179105
+    },
+    {
+      "auc": 0.8024767801857585,
+      "brier": 0.17139134615384616,
+      "ece": 0.27605769230769234,
+      "jev_category": "sports",
+      "n": 104,
+      "yes_rate": 0.8173076923076923
+    }
+  ],
+  "by_close_month": [
+    {
+      "auc": 0.7123106464689567,
+      "brier": 0.20398154981549815,
+      "close_month": "2026-09",
+      "ece": 0.07771217712177121,
+      "n": 542,
+      "yes_rate": 0.3966789667896679
+    }
+  ],
+  "by_grouped": [
+    {
+      "auc": 1.0,
+      "brier": 0.37224999999999997,
+      "ece": 0.46499999999999997,
+      "is_grouped": false,
+      "n": 2,
+      "yes_rate": 0.5
+    },
+    {
+      "auc": 0.7141720658219138,
+      "brier": 0.20335833333333334,
+      "ece": 0.07653703703703703,
+      "is_grouped": true,
+      "n": 540,
+      "yes_rate": 0.3962962962962963
+    }
+  ],
+  "by_numeric_threshold_bucket": [
+    {
+      "auc": 0.6545454545454545,
+      "brier": 0.22500625,
+      "ece": 0.16187500000000002,
+      "n": 16,
+      "numeric_threshold_bucket": "not_numeric",
+      "yes_rate": 0.3125
+    },
+    {
+      "auc": 0.7135849909584087,
+      "brier": 0.20334201520912548,
+      "ece": 0.07971482889733841,
+      "n": 526,
+      "numeric_threshold_bucket": "numeric",
+      "yes_rate": 0.39923954372623577
+    }
+  ],
+  "cost_usd": 0.019492662,
+  "headline": "Best market snapshot beats Jev on Brier (0.0822 vs 0.2040).",
+  "jev_market_correlation": {
+    "1d": 0.20324130193570306,
+    "7d": 0.3167152041503524,
+    "open": 0.41271131935061
+  },
+  "largest_disagreements_7d": [
+    {
+      "delta": -0.8315,
+      "id": "3665860",
+      "jev_resolve_yes": 0.15,
+      "jev_right": 0,
+      "market_price_7d": 0.9815,
+      "market_right": 1,
+      "question": "Exact Score: SC Lourel 0 - 0 SC Angrense?",
+      "resolved_yes": 1
+    },
+    {
+      "delta": 0.6885,
+      "id": "3393117",
+      "jev_resolve_yes": 0.69,
+      "jev_right": 0,
+      "market_price_7d": 0.0015,
+      "market_right": 1,
+      "question": "Will Linke win fewer than 20 seats in the 2026 Berlin state elections?",
+      "resolved_yes": 0
+    },
+    {
+      "delta": -0.625,
+      "id": "3393069",
+      "jev_resolve_yes": 0.27,
+      "jev_right": 0,
+      "market_price_7d": 0.895,
+      "market_right": 1,
+      "question": "Will Linke win the third-most seats in the 2026 Mecklenburg-Vorpommern parliamentary el...",
+      "resolved_yes": 1
+    },
+    {
+      "delta": 0.6064999999999999,
+      "id": "3748579",
+      "jev_resolve_yes": 0.7,
+      "jev_right": 0,
+      "market_price_7d": 0.0935,
+      "market_right": 1,
+      "question": "Will AfD win less than 32% of all valid second votes?",
+      "resolved_yes": 0
+    },
+    {
+      "delta": -0.6005,
+      "id": "4008559",
+      "jev_resolve_yes": 0.37,
+      "jev_right": 0,
+      "market_price_7d": 0.9705,
+      "market_right": 1,
+      "question": "Will Independiente Santa Fe win on 2026-09-13?",
+      "resolved_yes": 1
+    },
+    {
+      "delta": 0.594,
+      "id": "3748593",
+      "jev_resolve_yes": 0.6,
+      "jev_right": 0,
+      "market_price_7d": 0.006,
+      "market_right": 1,
+      "question": "Will CDU win at least 14% of all valid second votes?",
+      "resolved_yes": 0
+    },
+    {
+      "delta": 0.567,
+      "id": "3393156",
+      "jev_resolve_yes": 0.58,
+      "jev_right": 0,
+      "market_price_7d": 0.013,
+      "market_right": 1,
+      "question": "Will AfD win fewer than 20 seats in the 2026 Berlin state elections?",
+      "resolved_yes": 0
+    },
+    {
+      "delta": -0.5549999999999999,
+      "id": "3393043",
+      "jev_resolve_yes": 0.26,
+      "jev_right": 0,
+      "market_price_7d": 0.815,
+      "market_right": 1,
+      "question": "Will SPD win the second-most seats in the 2026 Mecklenburg-Vorpommern parliamentary ele...",
+      "resolved_yes": 1
+    },
+    {
+      "delta": 0.547,
+      "id": "3504051",
+      "jev_resolve_yes": 0.56,
+      "jev_right": 0,
+      "market_price_7d": 0.013,
+      "market_right": 1,
+      "question": "Will CDU win fewer than 25 seats in the 2026 Berlin state elections?",
+      "resolved_yes": 0
+    },
+    {
+      "delta": 0.544,
+      "id": "3393094",
+      "jev_resolve_yes": 0.55,
+      "jev_right": 0,
+      "market_price_7d": 0.006,
+      "market_right": 1,
+      "question": "Will SPD win fewer than 18 seats in the 2026 Mecklenburg-Vorpommern parliamentary elect...",
+      "resolved_yes": 0
+    },
+    {
+      "delta": -0.53,
+      "id": "4199127",
+      "jev_resolve_yes": 0.2,
+      "jev_right": 0,
+      "market_price_7d": 0.73,
+      "market_right": 1,
+      "question": "Will \"Resident Evil\" score at least 80 on the Rotten Tomatoes Tomatometer?",
+      "resolved_yes": 1
+    },
+    {
+      "delta": 0.5095000000000001,
+      "id": "3748340",
+      "jev_resolve_yes": 0.54,
+      "jev_right": 0,
+      "market_price_7d": 0.0305,
+      "market_right": 1,
+      "question": "Will Linke win less than 17% of all valid second votes?",
+      "resolved_yes": 0
+    },
+    {
+      "delta": -0.505,
+      "id": "2046123",
+      "jev_resolve_yes": 0.4,
+      "jev_right": 0,
+      "market_price_7d": 0.905,
+      "market_right": 1,
+      "question": "Will the Communist Party of the Russian Federation (KPRF) win the second-most seats in ...",
+      "resolved_yes": 1
+    },
+    {
+      "delta": 0.5025000000000001,
+      "id": "3748355",
+      "jev_resolve_yes": 0.51,
+      "jev_right": 0,
+      "market_price_7d": 0.0075,
+      "market_right": 1,
+      "question": "Will SPD win at least 16% of all valid second votes?",
+      "resolved_yes": 0
+    },
+    {
+      "delta": -0.5,
+      "id": "4199128",
+      "jev_resolve_yes": 0.15,
+      "jev_right": 0,
+      "market_price_7d": 0.65,
+      "market_right": 1,
+      "question": "Will \"Resident Evil\" score at least 85 on the Rotten Tomatoes Tomatometer?",
+      "resolved_yes": 1
+    },
+    {
+      "delta": 0.488,
+      "id": "3748601",
+      "jev_resolve_yes": 0.5,
+      "jev_right": 0,
+      "market_price_7d": 0.012,
+      "market_right": 1,
+      "question": "Will BSW win at least 7% of all valid second votes?",
+      "resolved_yes": 0
+    },
+    {
+      "delta": 0.476,
+      "id": "3748344",
+      "jev_resolve_yes": 0.5,
+      "jev_right": 0,
+      "market_price_7d": 0.024,
+      "market_right": 1,
+      "question": "Will AfD win less than 14% of all valid second votes?",
+      "resolved_yes": 0
+    },
+    {
+      "delta": 0.467,
+      "id": "1125102",
+      "jev_resolve_yes": 0.51,
+      "jev_right": 0,
+      "market_price_7d": 0.043,
+      "market_right": 1,
+      "question": "Will United Russia win between 295 and 309 seats in the next Russian State Duma election?",
+      "resolved_yes": 0
+    },
+    {
+      "delta": 0.4565,
+      "id": "3393088",
+      "jev_resolve_yes": 0.46,
+      "jev_right": 1,
+      "market_price_7d": 0.0035,
+      "market_right": 1,
+      "question": "Will AfD win fewer than 20 seats in the 2026 Mecklenburg-Vorpommern parliamentary elect...",
+      "resolved_yes": 0
+    },
+    {
+      "delta": 0.4335,
+      "id": "1125101",
+      "jev_resolve_yes": 0.45,
+      "jev_right": 1,
+      "market_price_7d": 0.0165,
+      "market_right": 1,
+      "question": "Will United Russia win between 280 and 294 seats in the next Russian State Duma election?",
+      "resolved_yes": 0
+    },
+    {
+      "delta": -0.42,
+      "id": "2822675",
+      "jev_resolve_yes": 0.32,
+      "jev_right": 0,
+      "market_price_7d": 0.74,
+      "market_right": 1,
+      "question": "Will AfD win the most seats in 2 German state elections in September 2026?",
+      "resolved_yes": 1
+    },
+    {
+      "delta": 0.405,
+      "id": "3748351",
+      "jev_resolve_yes": 0.44,
+      "jev_right": 1,
+      "market_price_7d": 0.035,
+      "market_right": 1,
+      "question": "Will Grüne win at least 20% of all valid second votes?",
+      "resolved_yes": 0
+    },
+    {
+      "delta": 0.38849999999999996,
+      "id": "1125100",
+      "jev_resolve_yes": 0.41,
+      "jev_right": 1,
+      "market_price_7d": 0.0215,
+      "market_right": 1,
+      "question": "Will United Russia win fewer than 280 seats in the next Russian State Duma election?",
+      "resolved_yes": 0
+    },
+    {
+      "delta": 0.3765,
+      "id": "3748592",
+      "jev_resolve_yes": 0.39,
+      "jev_right": 1,
+      "market_price_7d": 0.0135,
+      "market_right": 1,
+      "question": "Will CDU win between 11% and 14% of all valid second votes?",
+      "resolved_yes": 0
+    },
+    {
+      "delta": 0.375,
+      "id": "3748354",
+      "jev_resolve_yes": 0.42,
+      "jev_right": 1,
+      "market_price_7d": 0.045,
+      "market_right": 1,
+      "question": "Will SPD win between 13% and 16% of all valid second votes?",
+      "resolved_yes": 0
+    },
+    {
+      "delta": 0.373,
+      "id": "3748339",
+      "jev_resolve_yes": 0.45,
+      "jev_right": 1,
+      "market_price_7d": 0.077,
+      "market_right": 1,
+      "question": "Will CDU win at least 23% of all valid second votes?",
+      "resolved_yes": 0
+    },
+    {
+      "delta": 0.372,
+      "id": "2046502",
+      "jev_resolve_yes": 0.42,
+      "jev_right": 1,
+      "market_price_7d": 0.048,
+      "market_right": 1,
+      "question": "Will voter turnout be less than 47% in the 2026 Russian parliamentary election?",
+      "resolved_yes": 0
+    },
+    {
+      "delta": 0.3595,
+      "id": "3393040",
+      "jev_resolve_yes": 0.36,
+      "jev_right": 1,
+      "market_price_7d": 0.0005,
+      "market_right": 1,
+      "question": "Will CDU win the second-most seats in the 2026 Mecklenburg-Vorpommern parliamentary ele...",
+      "resolved_yes": 0
+    },
+    {
+      "delta": -0.355,
+      "id": "4053838",
+      "jev_resolve_yes": 0.21,
+      "jev_right": 0,
+      "market_price_7d": 0.565,
+      "market_right": 1,
+      "question": "Will BNB reach $800 in September?",
+      "resolved_yes": 1
+    },
+    {
+      "delta": 0.3495,
+      "id": "4008561",
+      "jev_resolve_yes": 0.35,
+      "jev_right": 1,
+      "market_price_7d": 0.0005,
+      "market_right": 1,
+      "question": "Will CD Tolima win on 2026-09-13?",
+      "resolved_yes": 0
+    },
+    {
+      "delta": 0.344,
+      "id": "2046233",
+      "jev_resolve_yes": 0.37,
+      "jev_right": 1,
+      "market_price_7d": 0.026,
+      "market_right": 1,
+      "question": "Will A Just Russia – For Truth (SRZP) win the third-most seats in the next Russian parl...",
+      "resolved_yes": 0
+    },
+    {
+      "delta": 0.34249999999999997,
+      "id": "3748294",
+      "jev_resolve_yes": 0.35,
+      "jev_right": 1,
+      "market_price_7d": 0.0075,
+      "market_right": 1,
+      "question": "Will FW win the fourth-most seats in the 2026 Berlin state elections?",
+      "resolved_yes": 0
+    },
+    {
+      "delta": -0.3385,
+      "id": "4096533",
+      "jev_resolve_yes": 0.61,
+      "jev_right": 1,
+      "market_price_7d": 0.9485,
+      "market_right": 1,
+      "question": "Will the Liberal Democratic Party of Russia (LDPR) win fewer than 45 seats in the next ...",
+      "resolved_yes": 1
+    },
+    {
+      "delta": 0.336,
+      "id": "3393089",
+      "jev_resolve_yes": 0.34,
+      "jev_right": 1,
+      "market_price_7d": 0.004,
+      "market_right": 1,
+      "question": "Will AfD win 20-23 seats in the 2026 Mecklenburg-Vorpommern parliamentary elections?",
+      "resolved_yes": 0
+    },
+    {
+      "delta": 0.327,
+      "id": "2822673",
+      "jev_resolve_yes": 0.33,
+      "jev_right": 1,
+      "market_price_7d": 0.003,
+      "market_right": 1,
+      "question": "Will AfD win the most seats in 0 German state elections in September 2026?",
+      "resolved_yes": 0
+    },
+    {
+      "delta": -0.325,
+      "id": "2839931",
+      "jev_resolve_yes": 0.3,
+      "jev_right": 0,
+      "market_price_7d": 0.625,
+      "market_right": 1,
+      "question": "Will AfD win the third-most seats in the 2026 Berlin state elections?",
+      "resolved_yes": 1
+    },
+    {
+      "delta": 0.3235,
+      "id": "1125103",
+      "jev_resolve_yes": 0.47,
+      "jev_right": 1,
+      "market_price_7d": 0.1465,
+      "market_right": 1,
+      "question": "Will United Russia win between 310 and 324 seats in the next Russian State Duma election?",
+      "resolved_yes": 0
+    },
+    {
+      "delta": -0.32,
+      "id": "3748590",
+      "jev_resolve_yes": 0.45,
+      "jev_right": 0,
+      "market_price_7d": 0.77,
+      "market_right": 1,
+      "question": "Will CDU win less than 8% of all valid second votes?",
+      "resolved_yes": 1
+    },
+    {
+      "delta": 0.31900000000000006,
+      "id": "3748594",
+      "jev_resolve_yes": 0.53,
+      "jev_right": 1,
+      "market_price_7d": 0.211,
+      "market_right": 0,
+      "question": "Will Linke win less than 8% of all valid second votes?",
+      "resolved_yes": 1
+    },
+    {
+      "delta": 0.30400000000000005,
+      "id": "3748597",
+      "jev_resolve_yes": 0.39,
+      "jev_right": 1,
+      "market_price_7d": 0.086,
+      "market_right": 1,
+      "question": "Will Linke win at least 14% of all valid second votes?",
+      "resolved_yes": 0
+    }
+  ],
+  "latency_ms_p50": 192.2,
+  "latency_ms_p95": 249.6,
+  "model": "jev-1.13.0",
+  "models": {
+    "jev_resolve_yes": {
+      "auc": 0.7123106464689567,
+      "base_rate_brier": 0.23932476409634942,
+      "brier": 0.20398154981549815,
+      "brier_skill": 0.1476788848588293,
+      "ece": 0.07771217712177121,
+      "n": 542
+    },
+    "market_price_1d": {
+      "auc": 0.9602178135405105,
+      "base_rate_brier": 0.23932476409634942,
+      "brier": 0.0821820082599119,
+      "brier_skill": 0.6566088404172568,
+      "ece": 0.05927643171806167,
+      "n": 454
+    },
+    "market_price_7d": {
+      "auc": 0.9550760892224307,
+      "base_rate_brier": 0.23932476409634942,
+      "brier": 0.08349772685185185,
+      "brier_skill": 0.6511112121341667,
+      "ece": 0.09749691358024691,
+      "n": 162
+    },
+    "market_price_open": {
+      "auc": 0.9162469269053187,
+      "base_rate_brier": 0.23932476409634942,
+      "brier": 0.13890946421845574,
+      "brier_skill": 0.41957755712011324,
+      "ece": 0.1183352165725047,
+      "n": 531
+    }
+  },
+  "n": 542,
+  "reliability": {
+    "jev_resolve_yes": [
+      {
+        "avg_prob": 0.0756,
+        "bin": "0.0-0.1",
+        "gap": 0.044399999999999995,
+        "hi": 0.1,
+        "lo": 0.0,
+        "n": 25,
+        "observed": 0.12
+      },
+      {
+        "avg_prob": 0.1482456140350877,
+        "bin": "0.1-0.2",
+        "gap": 0.1675438596491228,
+        "hi": 0.2,
+        "lo": 0.1,
+        "n": 57,
+        "observed": 0.3157894736842105
+      },
+      {
+        "avg_prob": 0.25766233766233765,
+        "bin": "0.2-0.3",
+        "gap": -0.023896103896103887,
+        "hi": 0.3,
+        "lo": 0.2,
+        "n": 154,
+        "observed": 0.23376623376623376
+      },
+      {
+        "avg_prob": 0.33574324324324323,
+        "bin": "0.3-0.4",
+        "gap": -0.024932432432432428,
+        "hi": 0.4,
+        "lo": 0.3,
+        "n": 148,
+        "observed": 0.3108108108108108
+      },
+      {
+        "avg_prob": 0.4357894736842105,
+        "bin": "0.4-0.5",
+        "gap": 0.14315789473684215,
+        "hi": 0.5,
+        "lo": 0.4,
+        "n": 38,
+        "observed": 0.5789473684210527
+      },
+      {
+        "avg_prob": 0.5501960784313725,
+        "bin": "0.5-0.6",
+        "gap": 0.057647058823529385,
+        "hi": 0.6,
+        "lo": 0.5,
+        "n": 51,
+        "observed": 0.6078431372549019
+      },
+      {
+        "avg_prob": 0.640655737704918,
+        "bin": "0.6-0.7",
+        "gap": 0.2281967213114754,
+        "hi": 0.7,
+        "lo": 0.6,
+        "n": 61,
+        "observed": 0.8688524590163934
+      },
+      {
+        "avg_prob": 0.7214285714285714,
+        "bin": "0.7-0.8",
+        "gap": 0.13571428571428568,
+        "hi": 0.8,
+        "lo": 0.7,
+        "n": 7,
+        "observed": 0.8571428571428571
+      },
+      {
+        "avg_prob": 0.84,
+        "bin": "0.8-0.9",
+        "gap": -0.84,
+        "hi": 0.9,
+        "lo": 0.8,
+        "n": 1,
+        "observed": 0
+      }
+    ],
+    "market_price_1d": [
+      {
+        "avg_prob": 0.021254424778761064,
+        "bin": "0.0-0.1",
+        "gap": -0.01240486725663717,
+        "hi": 0.1,
+        "lo": 0.0,
+        "n": 226,
+        "observed": 0.008849557522123894
+      },
+      {
+        "avg_prob": 0.15252325581395348,
+        "bin": "0.1-0.2",
+        "gap": -0.012988372093023254,
+        "hi": 0.2,
+        "lo": 0.1,
+        "n": 43,
+        "observed": 0.13953488372093023
+      },
+      {
+        "avg_prob": 0.2542027027027027,
+        "bin": "0.2-0.3",
+        "gap": 0.04309459459459464,
+        "hi": 0.3,
+        "lo": 0.2,
+        "n": 37,
+        "observed": 0.2972972972972973
+      },
+      {
+        "avg_prob": 0.33819565217391306,
+        "bin": "0.3-0.4",
+        "gap": 0.0965869565217391,
+        "hi": 0.4,
+        "lo": 0.3,
+        "n": 23,
+        "observed": 0.43478260869565216
+      },
+      {
+        "avg_prob": 0.45793478260869563,
+        "bin": "0.4-0.5",
+        "gap": 0.10728260869565215,
+        "hi": 0.5,
+        "lo": 0.4,
+        "n": 23,
+        "observed": 0.5652173913043478
+      },
+      {
+        "avg_prob": 0.5209677419354839,
+        "bin": "0.5-0.6",
+        "gap": 0.28548387096774186,
+        "hi": 0.6,
+        "lo": 0.5,
+        "n": 31,
+        "observed": 0.8064516129032258
+      },
+      {
+        "avg_prob": 0.6380833333333333,
+        "bin": "0.6-0.7",
+        "gap": 0.19525000000000003,
+        "hi": 0.7,
+        "lo": 0.6,
+        "n": 12,
+        "observed": 0.8333333333333334
+      },
+      {
+        "avg_prob": 0.7482222222222222,
+        "bin": "0.7-0.8",
+        "gap": 0.25177777777777777,
+        "hi": 0.8,
+        "lo": 0.7,
+        "n": 9,
+        "observed": 1
+      },
+      {
+        "avg_prob": 0.8532826086956522,
+        "bin": "0.8-0.9",
+        "gap": 0.1467173913043478,
+        "hi": 0.9,
+        "lo": 0.8,
+        "n": 23,
+        "observed": 1
+      },
+      {
+        "avg_prob": 0.9839814814814815,
+        "bin": "0.9-1.0",
+        "gap": 0.016018518518518543,
+        "hi": 1.0,
+        "lo": 0.9,
+        "n": 27,
+        "observed": 1
+      }
+    ],
+    "market_price_7d": [
+      {
+        "avg_prob": 0.021198924731182796,
+        "bin": "0.0-0.1",
+        "gap": -0.021198924731182796,
+        "hi": 0.1,
+        "lo": 0.0,
+        "n": 93,
+        "observed": 0
+      },
+      {
+        "avg_prob": 0.14910714285714285,
+        "bin": "0.1-0.2",
+        "gap": -0.07767857142857143,
+        "hi": 0.2,
+        "lo": 0.1,
+        "n": 14,
+        "observed": 0.07142857142857142
+      },
+      {
+        "avg_prob": 0.23825,
+        "bin": "0.2-0.3",
+        "gap": 0.38675000000000004,
+        "hi": 0.3,
+        "lo": 0.2,
+        "n": 8,
+        "observed": 0.625
+      },
+      {
+        "avg_prob": 0.345125,
+        "bin": "0.3-0.4",
+        "gap": 0.3215416666666666,
+        "hi": 0.4,
+        "lo": 0.3,
+        "n": 12,
+        "observed": 0.6666666666666666
+      },
+      {
+        "avg_prob": 0.47125,
+        "bin": "0.4-0.5",
+        "gap": -0.22125,
+        "hi": 0.5,
+        "lo": 0.4,
+        "n": 8,
+        "observed": 0.25
+      },
+      {
+        "avg_prob": 0.5323333333333333,
+        "bin": "0.5-0.6",
+        "gap": 0.1343333333333333,
+        "hi": 0.6,
+        "lo": 0.5,
+        "n": 9,
+        "observed": 0.6666666666666666
+      },
+      {
+        "avg_prob": 0.642,
+        "bin": "0.6-0.7",
+        "gap": 0.358,
+        "hi": 0.7,
+        "lo": 0.6,
+        "n": 5,
+        "observed": 1
+      },
+      {
+        "avg_prob": 0.7466666666666667,
+        "bin": "0.7-0.8",
+        "gap": 0.08666666666666667,
+        "hi": 0.8,
+        "lo": 0.7,
+        "n": 6,
+        "observed": 0.8333333333333334
+      },
+      {
+        "avg_prob": 0.855,
+        "bin": "0.8-0.9",
+        "gap": 0.14500000000000002,
+        "hi": 0.9,
+        "lo": 0.8,
+        "n": 2,
+        "observed": 1
+      },
+      {
+        "avg_prob": 0.9592,
+        "bin": "0.9-1.0",
+        "gap": 0.04079999999999995,
+        "hi": 1.0,
+        "lo": 0.9,
+        "n": 5,
+        "observed": 1
+      }
+    ],
+    "market_price_open": [
+      {
+        "avg_prob": 0.036488372093023254,
+        "bin": "0.0-0.1",
+        "gap": -0.007418604651162789,
+        "hi": 0.1,
+        "lo": 0.0,
+        "n": 172,
+        "observed": 0.029069767441860465
+      },
+      {
+        "avg_prob": 0.1476,
+        "bin": "0.1-0.2",
+        "gap": 0.0023999999999999855,
+        "hi": 0.2,
+        "lo": 0.1,
+        "n": 40,
+        "observed": 0.15
+      },
+      {
+        "avg_prob": 0.24881818181818183,
+        "bin": "0.2-0.3",
+        "gap": 0.02390909090909088,
+        "hi": 0.3,
+        "lo": 0.2,
+        "n": 55,
+        "observed": 0.2727272727272727
+      },
+      {
+        "avg_prob": 0.3470408163265306,
+        "bin": "0.3-0.4",
+        "gap": -0.06132653061224491,
+        "hi": 0.4,
+        "lo": 0.3,
+        "n": 49,
+        "observed": 0.2857142857142857
+      },
+      {
+        "avg_prob": 0.4469090909090909,
+        "bin": "0.4-0.5",
+        "gap": -0.11963636363636365,
+        "hi": 0.5,
+        "lo": 0.4,
+        "n": 55,
+        "observed": 0.32727272727272727
+      },
+      {
+        "avg_prob": 0.5047368421052632,
+        "bin": "0.5-0.6",
+        "gap": 0.3812280701754386,
+        "hi": 0.6,
+        "lo": 0.5,
+        "n": 114,
+        "observed": 0.8859649122807017
+      },
+      {
+        "avg_prob": 0.635,
+        "bin": "0.6-0.7",
+        "gap": 0.365,
+        "hi": 0.7,
+        "lo": 0.6,
+        "n": 6,
+        "observed": 1
+      },
+      {
+        "avg_prob": 0.7534615384615385,
+        "bin": "0.7-0.8",
+        "gap": 0.1696153846153846,
+        "hi": 0.8,
+        "lo": 0.7,
+        "n": 13,
+        "observed": 0.9230769230769231
+      },
+      {
+        "avg_prob": 0.8461538461538461,
+        "bin": "0.8-0.9",
+        "gap": 0.15384615384615385,
+        "hi": 0.9,
+        "lo": 0.8,
+        "n": 13,
+        "observed": 1
+      },
+      {
+        "avg_prob": 0.9493571428571429,
+        "bin": "0.9-1.0",
+        "gap": 0.0506428571428571,
+        "hi": 1.0,
+        "lo": 0.9,
+        "n": 14,
+        "observed": 1
+      }
+    ]
+  },
+  "routing": [
+    {
+      "auto_error_rate": 0.2859778597785978,
+      "auto_n": 542,
+      "auto_share": 1.0,
+      "flagged_error_rate": 0,
+      "flagged_n": 0,
+      "margin": 0.0
+    },
+    {
+      "auto_error_rate": 0.25,
+      "auto_n": 448,
+      "auto_share": 0.8265682656826568,
+      "flagged_error_rate": 0.4574468085106383,
+      "flagged_n": 94,
+      "margin": 0.1
+    },
+    {
+      "auto_error_rate": 0.23921568627450981,
+      "auto_n": 255,
+      "auto_share": 0.470479704797048,
+      "flagged_error_rate": 0.32752613240418116,
+      "flagged_n": 287,
+      "margin": 0.2
+    },
+    {
+      "auto_error_rate": 0.2808988764044944,
+      "auto_n": 89,
+      "auto_share": 0.16420664206642066,
+      "flagged_error_rate": 0.2869757174392936,
+      "flagged_n": 453,
+      "margin": 0.3
+    },
+    {
+      "auto_error_rate": 0.0967741935483871,
+      "auto_n": 31,
+      "auto_share": 0.05719557195571956,
+      "flagged_error_rate": 0.2974559686888454,
+      "flagged_n": 511,
+      "margin": 0.4
+    },
+    {
+      "auto_error_rate": 0.0,
+      "auto_n": 2,
+      "auto_share": 0.0036900369003690036,
+      "flagged_error_rate": 0.28703703703703703,
+      "flagged_n": 540,
+      "margin": 0.45
+    },
+    {
+      "auto_error_rate": 0,
+      "auto_n": 0,
+      "auto_share": 0.0,
+      "flagged_error_rate": 0.2859778597785978,
+      "flagged_n": 542,
+      "margin": 0.49
+    }
+  ],
+  "stamp": "full",
+  "total_input_tokens": 464111,
+  "total_output_tokens": 61689,
+  "yes_rate": 0.3966789667896679
+}
